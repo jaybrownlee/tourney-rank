@@ -1,0 +1,32 @@
+{
+  "name": "tourney-rank",
+  "version": "1.0.0",
+  "description": "Score and rank teams in a soccer tournament",
+  "bin": {
+    "tourney-rank": "./bin/cmd.js"
+  },
+  "scripts": {
+    "pretest": "lintit && check-pkg",
+    "test": "tap test/*.js test/lib -R tap --cov",
+    "test:nocoverage": "tap test -R tap"
+  },
+  "dependencies": {
+    "help": "^3.0.2",
+    "nopt": "^4.0.1"
+  },
+  "devDependencies": {
+    "check-pkg": "^2.0.2",
+    "lintit": "^5.1.0",
+    "tap": "^10.2.2"
+  },
+  "license": "MIT",
+  "author": "Jay Brownlee <jay@brownlee.me>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaybrownlee/tourney-rank"
+  },
+  "homepage": "https://github.com/jaybrownlee/tourney-rank",
+  "bugs": {
+    "url": "https://github.com/jaybrownlee/tourney-rank/issues"
+  }
+}

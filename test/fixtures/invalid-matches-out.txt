@@ -1,0 +1,55 @@
+ERROR: unable to process file
+line 1 - does not match the required format:
+        Falcons -3, Snakes 0
+line 2 - does not match the required format:
+        Diamonds 2, Red Pandas x
+line 3 - does not match the required format:
+        Diamonds null, Red Pandas 3
+line 5 - does not match the required format:
+        Diamonds '', Red Pandas 3
+line 6 - does not match the required format:
+        Diamonds '1', Red Pandas 3
+line 7 - does not match the required format:
+        Falcons 3.1, Gophers 3
+line 8 - does not match the required format:
+        Gophers 2, Tiger$ 2
+line 9 - does not match the required format:
+        Gophers 2 , Tigers 2
+line 10 - does not match the required format:
+        Falcons 2, Bears 4 5
+line 11 - does not match the required format:
+        Lions1, Bears 2
+line 12 - does not match the required format:
+        Red Pandas 1, Gophers
+line 13 - does not match the required format:
+        Red Pandas 1,
+line 14 - does not match the required format:
+        Diamonds 3
+line 15 - does not match the required format:
+        Falcons , Gophers 3
+line 16 - does not match the required format:
+        Lions 2, Tigers 1, Bears 3
+line 17 - does not match the required format:
+        "Falcons" 2, "Tigers" 3
+line 18 - does not match the required format:
+        Falcons "-2", Tigers "3"
+line 19 - does not match the required format:
+        Falcons '-2', Tigers '3'
+line 20 - does not match the required format:
+        Lions, 1 Bears, 2
+line 21 - does not match the required format:
+        Lions: 1, Bears: 2
+line 22 - does not match the required format:
+        Lions, Bears, 1, 2
+line 23 - does not match the required format:
+        Lions [1], Bears 2
+line 24 - does not match the required format:
+        console.log(process.env)
+line 25 - does not match the required format:
+        eval('console.log(process.env)')
+line 26 - does not match the required format:
+        {} 1, Lions 2
+line 27 - does not match the required format:
+        Tigers {}, Lions 2
+line 28 - a team is playing itself:
+          Tigers 2, Tigers 1

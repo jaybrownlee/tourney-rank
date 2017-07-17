@@ -1,0 +1,26 @@
+tourney-rank - Rank all teams in a soccer tournament
+
+  usage: tourney-rank [options] [file path]
+
+  options:
+    -h, --help                    show help and usage
+    -v, --version                 show version
+    -f, --file                    use the specified file as the data source
+
+  examples:
+    Rank teams according to match results directed to stdin:
+
+    $ tourney-rank < 2015-Matches.txt
+
+    Rank teams according to match results loaded from a file:
+
+    $ tourney-rank -f 2015-Matches.txt
+
+  file format:
+    The file must contain one or more lines which exactly match the pattern:
+      [team name] [team score], [team name] [team score]
+
+    example:
+      Gophers 3, Snakes 1
+      Red Pandas 0, Falcons 2
+      Diamonds 1, Bears 1
